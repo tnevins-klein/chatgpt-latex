@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "GPT LaTeX",
+  "version": "1.0",
+  "description": "Adds LaTeX rendering support on OpenAI's ChatGPT page",
+  
+  "content_scripts": [
+    {
+      "js": ["scripts/load_latex.js"],
+      "matches": [
+        "https://chat.openai.com/chat",
+        "https://chat.openai.com/chat/*"
+      ]
+    }
+  ],
+
+  "web_accessible_resources": [
+    {
+      "resources": [ "library/mathjax.js", "scripts/page_script.js", "scripts/config_mathjax.js" ],
+      "matches": [ "https://chat.openai.com/*" ]
+    }
+  ]
+}
+
