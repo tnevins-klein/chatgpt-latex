@@ -1,2 +1,4 @@
+![A screenshot of ChatGPT rendering LaTeX](assets/screenshot.png)
+
 # ChatGPT LaTeX Support
-A chrome extension that uses (https://www.mathjax.org/)[MathJax] to render LaTeX formulas output by ChatGPT.
+A chrome extension that uses [MathJax](https://www.mathjax.org/) to render LaTeX formulas output by ChatGPT.
